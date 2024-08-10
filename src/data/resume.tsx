@@ -1,5 +1,5 @@
 import {Icons} from "@/components/icons";
-import {HomeIcon, NotebookIcon} from "lucide-react";
+import {HomeIcon} from "lucide-react";
 
 export const DATA = {
   name: "Hasan Diab",
@@ -110,22 +110,6 @@ export const DATA = {
       ],
     },
     {
-      title: "Reservation Management System (Backend)",
-      href: "https://github.com/QPMatrix/NestJs-Micro",
-      dates: "2023",
-      active: true,
-      description: "Efficient user interaction management system built with Nest.js.",
-      technologies: ["Nest.js", "TypeScript", "PostgreSQL"],
-      image: '/nestjs-micro.jpeg',
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/QPMatrix/NestJs-Micro",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-    },
-    {
       title: "Aether Caster",
       href: "https://aethercastr.vercel.app",
       dates: "June 2024",
@@ -188,6 +172,23 @@ export const DATA = {
         },
       ],
     },
-  ],
+    {
+      title: "Reservation Management System (Backend)",
+      href: "https://github.com/QPMatrix/NestJs-Micro",
+      dates: "2023",
+      active: true,
+      description: "Efficient user interaction management system built with Nest.js.",
+      technologies: ["Nest.js", "TypeScript", "PostgreSQL"],
+      image: '/nestjs-micro.jpeg',
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/QPMatrix/NestJs-Micro",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+    },
+  ]
+
 } as const;
 
