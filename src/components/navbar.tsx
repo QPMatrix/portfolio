@@ -63,7 +63,7 @@ export default function Navbar() {
         <DockIcon>
           <Tooltip>
             <TooltipTrigger asChild>
-              <Link href={`mailto::${DATA.contact.email}`}>
+              <Link href={`mailto:${DATA.contact.email}`}>
                 <Mail  className='size-4'/>
               </Link>
             </TooltipTrigger>
