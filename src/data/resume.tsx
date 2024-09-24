@@ -8,7 +8,7 @@ export const DATA = {
   location: "Tamra, IL",
   locationLink: "https://www.google.com/maps/place/Tamra,+IL",
   description:
-      "Innovative software engineer with a proven track record in developing high-performance applications. Passionate about leveraging modern technologies and solving complex problems through continuous learning and freelance projects since 2022.",
+      "Innovative software engineer with a proven track record in developing high-performance applications. Passionate about leveraging modern technologies and solving complex problems through continuous learning and freelance projects since 2021.",
   summary: "Freelance Software Engineer specializing in single-page applications and native app development. Proficient in front-end and back-end technologies with a focus on creating innovative SaaS products.",
   avatarUrl: "/me.png",
   skills: [
@@ -63,7 +63,7 @@ export const DATA = {
       location: "Remote",
       title: "Freelance Software Engineer",
       logoUrl: "/qpmatrix.png",
-      start: "December 2022",
+      start: "December 2021",
       end: "Present",
       description:
           "Specialized in developing single-page applications using React. Created native applications and led the development of innovative SaaS products. Collaborated with clients to understand requirements and deliver tailored solutions. Achievements include improving client satisfaction and retention by delivering high-quality software solutions.",
